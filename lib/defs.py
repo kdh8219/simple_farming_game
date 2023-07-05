@@ -1,7 +1,8 @@
 import json
-import requests
 import webbrowser
+
 import pygame
+import requests
 
 
 def var_check(version):

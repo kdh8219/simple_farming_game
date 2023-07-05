@@ -1,7 +1,8 @@
+import pygame
+
 from lib import draw
 from lib import runtime_values
 from lib import ui
-import pygame
 
 
 def not_musicStart():

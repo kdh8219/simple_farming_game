@@ -1,7 +1,8 @@
+import pygame
+
 from lib import farm
 from lib import runtime_values
 from lib.block import block_list
-import pygame
 
 
 def process():

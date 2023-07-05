@@ -1,6 +1,7 @@
 import pygame
-from lib import runtime_values
+
 from lib import farm
+from lib import runtime_values
 
 
 def debug(event: pygame.event.Event):

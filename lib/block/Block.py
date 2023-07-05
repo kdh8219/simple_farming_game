@@ -1,5 +1,6 @@
-from ..Object import Object
 import pygame
+
+from ..Object import Object
 
 
 class Block(Object):

@@ -1,6 +1,3 @@
-import pygame
-import random
-
 from . import Block
 from .. import farm
 from ..plants import plants_list

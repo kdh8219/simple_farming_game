@@ -61,6 +61,9 @@ $ python main.py
 -   [ ] 도전과제 만들기
 -   [ ] 상자 제작
 
+## License
+> 라이센스는 GPL-3.0이며, 변경을 금합니다.
+
 ## 기여자
 
 -   [newkincode](https://github.com/newkincode) - 메인테이너

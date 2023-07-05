@@ -1,4 +1,4 @@
-from enum import Enum, EnumMeta, auto
+from enum import Enum, auto
 
 
 class Items(Enum):

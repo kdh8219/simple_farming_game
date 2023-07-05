@@ -1,12 +1,10 @@
 import pygame
 
-from lib.runtime_values import players
 from lib import farm
-from lib.plants import plants_list
-from lib.block import block_list
-from lib import defs
 from lib import imgs
-
+from lib.block import block_list
+from lib.plants import plants_list
+from lib.runtime_values import players
 
 ground_images: dict[farm.Tiles, pygame.Surface] = {
     farm.Tiles.DIRT: pygame.image.load("assets/img/ground/dirt.png"),

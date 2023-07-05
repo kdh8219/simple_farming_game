@@ -1,10 +1,7 @@
-import pygame
-
-
 from . import Block
 from . import block_list
-from ..plants import plants_list
 from .. import shopGui
+from ..plants import plants_list
 
 
 class Shop(Block.Block):

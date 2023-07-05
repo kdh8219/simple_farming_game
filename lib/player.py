@@ -1,14 +1,10 @@
-from enum import Enum, auto
 import math
-from typing import Dict, Union
-import pygame
 import random
+from typing import Dict
 
-from lib.Object import Object
-from lib.plants import plants_list
-from lib.farm import *
 from lib import items
-from lib.block import block_list
+from lib.Object import Object
+from lib.farm import *
 
 
 class Direction(Enum):

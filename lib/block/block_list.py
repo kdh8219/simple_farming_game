@@ -1,8 +1,9 @@
 from typing import Union, get_args, cast
+
 import pygame
 
-from . import sprinkle
 from . import shop
+from . import sprinkle
 
 block_type = Union[sprinkle.Sprinkle, shop.Shop]
 block_list = cast(tuple[block_type], get_args(block_type))

@@ -1,12 +1,13 @@
-import lib.draw as draw
-import lib.runtime_values as runtime_values
-import lib.imgs as imgs
-import lib.block.block_list as block_list
-import lib.plants.plants_list as plants_list
-import lib.items as item
-from lib import keyinput
-from lib import chat
 import pygame
+
+import lib.block.block_list as block_list
+import lib.draw as draw
+import lib.imgs as imgs
+import lib.items as item
+import lib.plants.plants_list as plants_list
+import lib.runtime_values as runtime_values
+from lib import chat
+from lib import keyinput
 
 version_text = f"{runtime_values.version[0]} {runtime_values.version[1]}.{runtime_values.version[2]}.{runtime_values.version[3]}"
 font_renderer = runtime_values.font

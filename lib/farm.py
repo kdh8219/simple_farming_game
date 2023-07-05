@@ -1,9 +1,10 @@
 from enum import Enum, auto
 from typing import List, Union
+
 import pygame
 
-import lib.plants.plants_list as plants_list
 import lib.block.block_list as block_list
+import lib.plants.plants_list as plants_list
 
 
 class Tiles(Enum):

@@ -1,6 +1,7 @@
+import pygame
+
 import lib.draw as dw
 from lib import runtime_values
-import pygame
 
 
 class Btn:

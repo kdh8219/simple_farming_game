@@ -2,6 +2,7 @@ import datetime
 import json
 import pygame
 import sys
+import webbrowser
 
 if __name__ == "__main__":
     pygame.init()
@@ -23,7 +24,6 @@ if __name__ == "__main__":
     from lib import defs
     from lib import drawObj
     from lib import save
-    import webbrowser
 
     runtime_values.logs.info("end")
     runtime_values.logs.info("init...")

@@ -1,12 +1,11 @@
 import json
-from typing import Tuple
+
 import pygame
 
 from lib import farm
-from lib import draw
 from lib import runtime_values
-from lib.plants import plants_list
 from lib.block import block_list
+from lib.plants import plants_list
 
 
 def write_save():

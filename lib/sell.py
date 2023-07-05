@@ -1,6 +1,6 @@
-from lib.plants import plants_list
-from lib.block import block_list
 from lib import runtime_values
+from lib.block import block_list
+from lib.plants import plants_list
 
 
 def sell(plant):

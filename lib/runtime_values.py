@@ -1,11 +1,11 @@
-import pygame
-import platform
-import json
 import os
+import platform
 from typing import Tuple
 
-from lib.logger import logger
+import pygame
+
 from lib import player
+from lib.logger import logger
 
 version_type = Tuple[str, int, int, int]
 version: version_type = ("beta", 1, 0, 3)
